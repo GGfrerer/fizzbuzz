@@ -7,6 +7,7 @@ while zahl > 100:
     if zahl <= 100:
         print
         print "Your number is " + str(zahl)
+        print
 
         for x in range(zahl):
             y=x+1
@@ -20,4 +21,5 @@ while zahl > 100:
             else:
                 print y
         break
+
 
